@@ -3,11 +3,6 @@
   command = "npm run build"
   publish = ".next"
 
-[[redirects]]
-  from = "/api/socketio/*"
-  to = "/api/socketio"
-  status = 200
-  force = true
 
 [[redirects]]
   from = "/*"
@@ -24,15 +19,6 @@
 [build.environment]
   NEXT_TELEMETRY_DISABLED = "1"
   NODE_VERSION = "18"
-
-[[headers]]
-  for = "/api/socketio/*"
-  [headers.values]
-    Access-Control-Allow-Origin = "*"
-    Access-Control-Allow-Methods = "GET, POST, OPTIONS"
-    Access-Control-Allow-Headers = "Content-Type, Authorization"
-    Access-Control-Allow-Credentials = "true"
-    Access-Control-Max-Age = "86400"
 
 [[headers]]
   for = "/*"
