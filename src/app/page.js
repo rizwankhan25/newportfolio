@@ -14,7 +14,7 @@ export default function Home() {
         <div className="fixed inset-0 bg-gradient-to-b from-black via-gray-900 to-black opacity-50"></div>
         
         {/* Content */}
-        <div className="relative z-10">
+        <div className="relative z-10 ">
           <Navbar />
           <Hero />
           <About />
