@@ -1,3 +1,5 @@
+import Button from './ui/Button';
+
 export default function Contact() {
   return (
     <section id="contact" className="py-20 relative">
@@ -70,12 +72,9 @@ export default function Contact() {
                 ></textarea>
               </div>
               <div className="flex justify-center">
-                <button
-                  type="submit"
-                  className="px-8 py-3 bg-gold-400 text-black font-semibold rounded-lg hover:bg-gold-300 transition-all duration-300 transform hover:scale-105"
-                >
+                <Button type="submit" className="bg-gold-400 hover:bg-gold-300">
                   Send Message
-                </button>
+                </Button>
               </div>
             </form>
           </div>

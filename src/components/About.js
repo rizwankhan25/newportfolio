@@ -1,3 +1,5 @@
+import Button from './ui/Button';
+
 export default function About() {
   return (
     <section id="about" className="py-20 relative">
@@ -28,25 +30,13 @@ export default function About() {
             
             {/* Resume Button */}
             <div className="flex justify-center">
-              <a
+              <Button
                 href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-8 py-3 border-2 border-gold-400 text-gold-400 font-semibold rounded-lg hover:bg-gold-400/10 transition-all duration-300 transform hover:scale-105"
               >
-                <svg
-                  className="w-5 h-5"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                </svg>
                 Download Resume
-              </a>
+              </Button>
             </div>
           </div>
         </div>
