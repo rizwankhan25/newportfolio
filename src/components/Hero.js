@@ -26,6 +26,27 @@ export default function Hero() {
               <p className="text-lg md:text-xl text-gray-400 mb-12 max-w-2xl">
                 Crafting elegant solutions to complex problems through clean code and innovative design.
               </p>
+
+              {/* Photo - Mobile Only */}
+              <div className="md:hidden flex justify-center mb-12">
+                <div className="relative w-72 h-72">
+                  {/* Decorative elements */}
+                  <div className="absolute -inset-4 bg-gradient-to-r from-gold-400 to-gold-300 rounded-full blur-xl opacity-20 animate-pulse"></div>
+                  <div className="absolute inset-0 bg-gradient-to-r from-gold-400 to-gold-300 rounded-full animate-spin-slow"></div>
+                  
+                  {/* Photo container */}
+                  <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-gold-400/30 shadow-2xl">
+                    <Image
+                      src="/profile.jpg"
+                      alt="Rizwan Khan"
+                      fill
+                      className="object-cover object-top"
+                      priority
+                    />
+                  </div>
+                </div>
+              </div>
+
               <div className="flex flex-col sm:flex-row gap-6 justify-center md:justify-start">
                 <Button href="#projects">
                   View Projects
@@ -43,8 +64,8 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* Photo */}
-            <div className="flex-1 relative">
+            {/* Photo - Desktop Only */}
+            <div className="hidden md:block flex-1 relative">
               <div className="relative w-72 h-72 md:w-96 md:h-96 mx-auto">
                 {/* Decorative elements */}
                 <div className="absolute -inset-4 bg-gradient-to-r from-gold-400 to-gold-300 rounded-full blur-xl opacity-20 animate-pulse"></div>
