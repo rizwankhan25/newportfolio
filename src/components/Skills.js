@@ -7,15 +7,15 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-20 relative">
+    <section id="skills" className=" relative">
       {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-gold-400/5 rounded-full blur-3xl"></div>
       </div>
 
       <div className="container mx-auto px-6 relative z-10">
-        <h2 className="text-4xl font-bold mb-16 text-center">
-          <span className="bg-gradient-to-r from-gold-400 via-gold-300 to-gold-400 bg-clip-text text-transparent">
+        <h2 className="text-4xl font-bold mb-14 text-center">
+          <span className="bg-gradient-to-r from-gold-400 via-gold-300 to-gold-400 bg-clip-text">
             Skills & Expertise
           </span>
         </h2>

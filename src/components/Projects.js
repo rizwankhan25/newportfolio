@@ -1,37 +1,37 @@
 export default function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce platform with real-time inventory management and secure payment processing.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      image: "/projects/ecommerce.jpg",
-      link: "#"
+      title: "Modern Kitchen Solutions Website",
+      description: "A fully responsive and visually engaging website built for Novella Kitchens, a company offering premium modular kitchen solutions. Developed using modern frontend technologies.",
+      technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+      image: "/images/novellakitchen.jpeg",
+      link: "https://novellakitchens.com/"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates and team features.",
-      technologies: ["Next.js", "Firebase", "Tailwind CSS"],
-      image: "/projects/taskmanager.jpg",
-      link: "#"
+      title: "Premium Alcoholic Beverages Website",
+      description: "A sleek and responsive website designed for SG Alcobev, a premium alcoholic beverage company. The site showcases the brand's product range, values, and vision with a modern layout and intuitive user interface.",
+      technologies: ["HTML", "SASS", "JavaScript"],
+      image: "/images/sg.jpeg",
+      link: "https://www.sgalcobev.com/"
     },
     {
-      title: "Portfolio Website",
-      description: "A modern portfolio website showcasing projects and skills with a beautiful UI.",
-      technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
-      image: "/projects/portfolio.jpg",
-      link: "#"
+      title: "Product Management App",
+      description: "A full-stack web application to manage products,  You can login by this  email: eve.holt@reqres.in,  password: tailwind",
+      technologies: ["Next.js", "Bootstrap", "JavaScript"],
+      image: "/images/productmanagementapp.jpeg",
+      link: "https://productmanagementapps.netlify.app/login"
     }
   ];
 
   return (
     <section id="projects" className="py-20 relative">
       {/* Background decoration */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-1/2 right-0 w-96 h-96 bg-gold-400/5 rounded-full blur-3xl"></div>
-      </div>
+      {/* <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-1/2 right-0 w-96 h-96 bg-gold-400/5 rounded-full blur-3xl">asdfsdf asfsdf </div>
+      </div> */}
 
       <div className="container mx-auto px-6 relative z-10">
-        <h2 className="text-4xl font-bold mb-16 text-center">
+        <h2 className="text-4xl font-bold mb-14 text-center">
           <span className="bg-gradient-to-r from-gold-400 via-gold-300 to-gold-400 bg-clip-text">
             Featured Projects
           </span>
@@ -43,7 +43,8 @@ export default function Projects() {
               key={index}
               className="group bg-black/50 backdrop-blur-sm border border-gray-800 rounded-2xl overflow-hidden shadow-xl transform hover:scale-105 transition-all duration-300"
             >
-              <div className="relative h-48 overflow-hidden">
+              <div className="relative overflow-hidden m-4">
+                <img src={project.image} alt={project.title} className="w-full h-full object-cover rounded-lg" />
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/80"></div>
                 <div className="absolute inset-0 bg-gold-400/10 group-hover:bg-gold-400/20 transition-all duration-300"></div>
               </div>
