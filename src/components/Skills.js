@@ -1,9 +1,9 @@
 export default function Skills() {
   const skills = [
-    { category: "Frontend", items: ["React", "Next.js", "JavaScript", "HTML5", "CSS3", "Tailwind CSS"] },
-    { category: "Backend", items: ["Node.js", "Express", "Python", "Django", "REST APIs", "GraphQL"] },
+    { category: "Frontend", items: ["React.js", "Next.js", "JavaScript", "HTML5", "CSS3", "Bootstrap"] },
+    { category: "Backend", items: ["Node.js", "Express.js", "PHP", "Postman", "REST APIs"] },
     { category: "Database", items: ["MongoDB", "PostgreSQL", "MySQL", "Redis"] },
-    { category: "Tools", items: ["Git", "Docker", "AWS", "VS Code", "Figma"] }
+    { category: "Tools", items: ["VS Code", "Cursor", "Git", "GitHub", "AWS", "Figma"] }
   ];
 
   return (
@@ -14,7 +14,7 @@ export default function Skills() {
       </div>
 
       <div className="container mx-auto px-6 relative z-10">
-        <h2 className="text-4xl font-bold mb-14 text-center">
+        <h2 className="text-4xl font-bold mb-12 text-center">
           <span className="bg-gradient-to-r from-gold-400 via-gold-300 to-gold-400 bg-clip-text">
             Skills & Expertise
           </span>

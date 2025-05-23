@@ -23,7 +23,7 @@ export default function Hero() {
               <h2 className="text-2xl md:text-3xl text-gray-300 mb-8">
                 Full Stack Developer
               </h2>
-              <p className="text-lg md:text-xl text-gray-400 mb-12 max-w-2xl">
+              <p className="text-lg md:text-xl mb-12 max-w-2xl">
                 Crafting elegant solutions to complex problems through clean code and innovative design.
               </p>
 

@@ -26,10 +26,12 @@ export default function About() {
             I’m a passionate Full Stack Developer skilled in crafting modern, responsive, and user-friendly web applications. With hands-on experience in both frontend and backend development, I specialize in building full-stack solutions using technologies like <strong>HTML</strong>, <strong>CSS</strong>,<strong>Bootstrap</strong> , <strong>JavaScript</strong>, <strong>React.js</strong> , <strong>Next.js</strong>, and backend tools like <strong>Node.js</strong>, <strong>PHP</strong>, and the <strong>CodeIgniter</strong> framework.
             </p>
             <p className="leading-relaxed mb-4">
-            I take pride in writing clean, maintainable code and translating ideas into functional digital experiences. Whether it’s designing an intuitive UI or architecting a robust backend, I enjoy every step of the development process.
+            I’m a B.Tech graduate in Computer Science and Engineering from Trinity Institute of Technology, Bhopal (2019–2023), with a CGPA of 8.18. I’m a passionate and self-driven Full Stack Developer.
             </p>
             <p className="leading-relaxed mb-8">
-            My journey in MERN Stack web development has taught me the importance of continuous learning and adapting to the latest tools and trends. I strive to build solutions that are not only functional but also scalable and efficient.
+            A MERN Stack Developer with expertise in React.js, Node.js, and PHP, skilled in both MongoDB and MySQL
+database design and management. Proficient in HTML/CSS for frontend development, along with strong
+command over JavaScript, Git/GitHub
             </p>
             
             {/* Resume Button */}
