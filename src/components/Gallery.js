@@ -130,7 +130,7 @@ const Gallery = () => {
   };
 
   return (
-    <section id="gallery" className=" pb-12">
+    <section id="gallery" className="pb-12">
       <div className="container">
         <h2 className="text-4xl font-bold text-center mb-14">Gallery</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
